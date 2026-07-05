@@ -12,6 +12,16 @@ backoff, a dead letter queue, cron schedules, and role-based multi-tenant access
                           └─ Scheduler loop (promote / cron / reap)
 ```
 
+## Project Information
+
+| Field | Details |
+|---|---|
+| **Name** | Pari Gupta |
+| **Registration Number** | RA2311027010173 |
+| **Email** | pg4347@srmist.edu.in |
+| **GitHub Repository** | https://github.com/pg3010-cyber/Codity.git |
+
+
 ## Features
 
 - **Auth & tenancy** — JWT auth; users belong to organizations with roles
