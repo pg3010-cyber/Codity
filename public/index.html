@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conveyor — Job Scheduler</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar" class="hidden">
+      <div class="brand">◆ Conveyor</div>
+      <nav>
+        <a href="#/overview" data-nav="overview">Overview</a>
+        <a href="#/projects" data-nav="projects">Projects</a>
+        <a href="#/workers" data-nav="workers">Workers</a>
+        <a href="#/dlq" data-nav="dlq">Dead Letters</a>
+      </nav>
+      <div class="sidebar-footer">
+        <span id="user-email"></span>
+        <button class="btn btn-ghost" id="logout-btn">Sign out</button>
+      </div>
+    </aside>
+    <main id="view"></main>
+  </div>
+  <div id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
